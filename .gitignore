@@ -43,3 +43,11 @@ nb-configuration.xml
 /.quarkus/cli/plugins/
 # TLS Certificates
 .certs/
+
+# latex
+edoc.aux
+edoc.fls
+edoc.log
+edoc.pdf
+edoc.synctex.gz
+edoc.fdb_latexmk
