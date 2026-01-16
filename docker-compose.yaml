@@ -1,0 +1,11 @@
+services:
+  postgres:
+    image: postgres:18.1-alpine
+    ports:
+      - 5432:5432
+    volumes:
+      - ./dev/data/postgres:/var/lib/postgresql
+    environment:
+      - POSTGRES_USER=pgadmin
+      - POSTGRES_PASSWORD=pgadmin
+      - POSTGRES_DB=edoc
