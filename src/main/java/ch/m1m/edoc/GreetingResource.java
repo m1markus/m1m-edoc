@@ -38,7 +38,7 @@ public class GreetingResource {
         Map<String, Object> emailContext = new HashMap<>();
         emailContext.put("firstname", "Markus");
 
-        emailService.send("mmm7@bluewin.ch", "test-2", "login-link-confirm", emailContext);
+        //emailService.send("mmm7@bluewin.ch", "test-2", "login-link-confirm", emailContext);
 
         return "Hello from Quarkus REST";
     }
