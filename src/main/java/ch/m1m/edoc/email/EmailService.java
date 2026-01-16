@@ -35,6 +35,7 @@ public class EmailService {
 
         // send html mail
         mailer.send(Mail.withHtml(to, subject, htmlMailBody));
+        log.info("sent mail to {} success", to);
 
         //log.debug("using password {}", smtpUserPassword);
     }
